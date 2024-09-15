@@ -30,7 +30,7 @@ export default function VisuChat(){
             <div className="barra-digitacao">
                 <input type="text" placeholder="Digite uma mensagem..." />
                 <button type="button">Enviar</button>
-                <Link to='./orcamentopeca'><button type="button">✓</button></Link>
+                <Link to='/OrcamentoPeca'><button type="button">✓</button></Link>
             </div>
         </div>
       </div>
