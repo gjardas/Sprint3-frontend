@@ -41,7 +41,7 @@ const router = createBrowserRouter([
         element: <Chat/>
       },
       {
-        path: "/orcamento",
+        path: "/orcamentooficina",
         element: <Orcamento/>
       },
       {

@@ -1,0 +1,10 @@
+.voltar {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1D57AE;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+.conteiner-pag-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10%;
+}
+.chat-container {
+    width: 360px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box {
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.mensagem {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.conteudo-mensagem {
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.envia .conteudo-mensagem {
+    background-color: #ffffff;
+    align-self: flex-start;
+    color: #000000;
+}
+
+.recebe .conteudo-mensagem {
+    background-color: #1D57AE;
+    align-self: flex-end;
+}
+
+.barra-digitacao {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.barra-digitacao input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.barra-digitacao button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1D57AE;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}

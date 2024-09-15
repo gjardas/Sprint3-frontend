@@ -5,7 +5,7 @@ export default function FormularioLogin(){
     <>
         <form id="form" className="form">
             <div className="form-content">
-                <input type="text" id="login" placeholder="Digite seu login"/>
+                <input type="text" id="login" placeholder="Digite seu CPF"/>
                 <input type="password" id="senha" placeholder="Digite sua senha"/>
                 <Link to='/Home'><button>Entrar</button></Link>
             </div>

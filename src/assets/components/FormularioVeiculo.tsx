@@ -11,7 +11,7 @@ export default function FormularioVeiculo(){
                 <input type="text" id="senha" placeholder="Qual a placa do automovel"/>
                 <input type="text" id="login" placeholder="Qual a cor do automovel?"/>
                 <input type="text" id="senha" placeholder="Qual o chassi do automovel?"/>
-                <Link to='/CadastroVeiculo'><button>Entrar</button></Link>
+                <Link to='/'><button>Entrar</button></Link>
             </div>
 
         </form>

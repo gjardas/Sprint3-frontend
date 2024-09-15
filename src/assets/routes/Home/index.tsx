@@ -1,6 +1,13 @@
+import Automoveis from "../../components/Automoveis";
+import BotaoChat from "../../components/BotaoChat";
+import Perfil from "../../components/Perfil";
+
 export default function Home(){
     return(
-        <h1>Home</h1>
-        
+        <>
+        <Perfil/>
+        <BotaoChat/>
+        <Automoveis/>
+        </>
     );
 }

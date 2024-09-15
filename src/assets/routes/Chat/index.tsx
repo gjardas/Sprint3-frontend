@@ -1,5 +1,12 @@
+import BotaoVoltar from "../../components/BotaoVoltar";
+import VisuChat from "../../components/VisuChat";
+
 export default function Chat(){
     return(
-        <h1>chat</h1>
+        <>
+        <BotaoVoltar/>
+        <h1>Chat</h1>
+        <VisuChat/>
+    </>
     );
 }

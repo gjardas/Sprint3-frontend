@@ -13,6 +13,7 @@
     border-radius: 8px;
     padding: 8px;
     color: black;
+    font-weight: bold; 
 }
 
 .form button{
@@ -25,4 +26,12 @@
     margin-top: 40px;
     border-radius: 8px;
     color: black;
+    font-weight: bold; 
 }
+
+.form button:hover {
+    border-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
