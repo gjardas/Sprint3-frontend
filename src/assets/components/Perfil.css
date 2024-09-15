@@ -1,8 +1,8 @@
-.container {
+.container-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-bottom: 50px;
 }
 
 .fundo-perfil {
@@ -42,3 +42,4 @@
     font-size: 16px;
     color: #333;
 }
+

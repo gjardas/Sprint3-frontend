@@ -5,7 +5,7 @@ export default function Perfil(){
 
     return(
 <>
-    <div className='conatainer-perfil'>
+    <div className='container-perfil'>
     <div className='fundo-perfil'>
         <div className="foto">
             <img src={FotoPerfil} alt="Foto de perfil" />
