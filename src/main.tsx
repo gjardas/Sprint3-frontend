@@ -10,8 +10,10 @@ import Chat from './assets/routes/Chat/index.tsx'
 import Login from './assets/routes/Login/index.tsx'
 import Orcamento from './assets/routes/OrcamentoOficina/index.tsx'
 import OrcamentoPeca from './assets/routes/OrcamentoPeca/index.tsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import OrcamentoFinal from './assets/routes/OrcamentoFinal/index.tsx'
 import EsqueceuSenha from './assets/routes/EsqueceuSenha/index.tsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 
 //paginas
 
@@ -51,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "/EsqueceuSenha",
         element: <EsqueceuSenha/>
+      },
+      {
+        path: "/OrcamentoFinal",
+        element: <OrcamentoFinal/>
       }
     ]
   }

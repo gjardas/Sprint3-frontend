@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 import './Perfil.css'
 import bateria2 from '../bateria2.webp'
-import bateria3 from '../Bateria3.jpg'
-export default function Pecas(){
-
+import oficina2 from '../oficina2.webp'
+export default function FinalOrcamento(){
     return(
-<>
-    <div className='container-perfil'>
+        <>
+        <h3>Orçamento final</h3>
+        <div className='container-perfil'>
     <div className='fundo-perfil'>
         <div className="foto">
             <img src={bateria2}alt="Foto de perfil" />
@@ -16,23 +16,25 @@ export default function Pecas(){
         </div>
     </div>
     </div>
+
     <div className='container-perfil'>
     <div className='fundo-perfil'>
     <div className="foto">
-            <img src={bateria3}alt="Foto de perfil" />
+            <img src={oficina2}alt="Foto de perfil" />
         </div>
         <div className="nome-perfil">
-            <p>Bateria Eletran R$220</p>
+            <p>Oficina Daora - 450m - R$100</p>
         </div>
         </div>
-        </div>
+        </div> 
+
+        <h3>Orçamento final: R$300 <br /> Marcar para o dia 16 ás 16h?</h3>
+        
         <form id="form" className="form">
             <div className="form-content">
-            <Link to='/OrcamentoOficina'><button>Continuar</button></Link>
+            <Link to='/Home'><button>Finalizar</button></Link>
             </div>
         </form>
         </>
-
-
     )
 }

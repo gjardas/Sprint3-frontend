@@ -28,7 +28,7 @@ export default function Oficina(){
         </div>
         <form id="form" className="form">
             <div className="form-content">
-            <Link to='/Orcamentooficina'><button>Entrar</button></Link>
+            <Link to='/OrcamentoFinal'><button>Continuar</button></Link>
             </div>
         </form>
         </>
