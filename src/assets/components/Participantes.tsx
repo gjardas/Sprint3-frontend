@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Fernando from '../Fernando.jpeg'
 import Nat from '../Nat.jpeg'
 import Guilherme from '../Guilherme.jpeg'
@@ -37,6 +38,10 @@ export default function Participantes(){
         </div>
     </div>
     </div>
+    <div className="form">
+                <Link to='/Home'><button>Voltar</button></Link>
+            </div>
+
         </>
     )
 }
