@@ -13,6 +13,7 @@ import OrcamentoPeca from './assets/routes/OrcamentoPeca/index.tsx'
 import OrcamentoFinal from './assets/routes/OrcamentoFinal/index.tsx'
 import EsqueceuSenha from './assets/routes/EsqueceuSenha/index.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Participantes from './assets/components/Participantes.tsx'
 
 
 //paginas
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: "/OrcamentoFinal",
         element: <OrcamentoFinal/>
+      },
+      {
+        path: '/participantes',
+        element: <Participantes/>
       }
     ]
   }
