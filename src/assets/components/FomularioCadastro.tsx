@@ -11,7 +11,7 @@ export default function FormularioCadastro(){
                 <input type="text" id="senha" placeholder="Confirme sua senha"/>
                 <input type="text" id="login" placeholder="Digite sue endereço"/>
                 <input type="text" id="senha" placeholder="Digite seu telefone"/>
-                <Link to='/CadastroVeiculo'><button>Entrar</button></Link>
+                <Link to='/CadastroVeiculo'><button>Continuar</button></Link>
             </div>
 
         </form>
